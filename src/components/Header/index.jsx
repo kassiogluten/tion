@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import { ImCross, ImMenu3 } from "react-icons/im";
 import logoImg from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 import { HeaderContainer, Menu, HeaderNav } from "./styles";
 
@@ -24,15 +26,20 @@ export function Header() {
               />
             )}
             <li>
-              <a href="#como">Como funciona</a>
+              <a href="/#como">
+                <a>Como funciona</a>
+              </a>
             </li>
             <li>
-              <a href="#bibi">Termos de uso</a>
+              <Link to="/termos">
+                <a>Termos de uso</a>
+              </Link>
             </li>
             <li>
-              <a href="#bibi">Política de privacidade</a>
+              <Link to="/politica">
+                <a>Política de privacidade</a>
+              </Link>
             </li>
-           
           </Menu>
 
           <ImMenu3

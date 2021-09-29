@@ -29,7 +29,7 @@ export function Home() {
             <h1>
               Corridas de forma{" "}
               <span>
-                <Gradient dir="left-to-right" from="#FF4655" to="#F89938">
+                <Gradient dir="left-to-right" from="#FF4655" to="#F77250">
                   fácil, prática e segura
                 </Gradient>
               </span>
@@ -40,8 +40,8 @@ export function Home() {
               Buscamos sempre encontrar um perto de você, eliminando a demora e
               aumentando a facilidade e agilidade.
             </p>
-            <img src={appStoreImg} alt="Tion App Store" />
-            <img src={playStoreImg} alt="Tion Play Store" />
+            <img onClick={()=>alert('Em breve')} src={appStoreImg} alt="Tion App Store" />
+            <img onClick={()=>alert('Em breve')} src={playStoreImg} alt="Tion Play Store" />
           </BoxTexto>
           <BoxImagem />
         </HeroSection>
@@ -49,7 +49,7 @@ export function Home() {
       <MainContainer>
         <MainContent>
           <Line />
-          <h2>Como funciona?</h2>
+          <h2 id="como">Como funciona?</h2>
           <Boxes>
             <Box as={Tilt} glareEnable={true} glareBorderRadius={"20px"} glarePosition="top" tiltMaxAngleX={10} tiltMaxAngleY={5} glareMaxOpacity={0.1}>
               <div className="number">01</div>
