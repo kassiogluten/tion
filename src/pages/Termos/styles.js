@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import previewAppImg from "../../assets/previewAppImg.png";
 import previewAppImg2 from "../../assets/previewAppImg2.png";
 
 export const HeroContainer = styled.div`

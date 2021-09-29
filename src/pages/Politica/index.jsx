@@ -428,35 +428,17 @@ export function Politica() {
                 divulga&ccedil;&atilde;o das informa&ccedil;&otilde;es seja
                 razoavelmente necess&aacute;rio para:
                 <br />
-                <img
-                  class="emoji"
-                  role="img"
-                  draggable="false"
-                  src="https://s.w.org/images/core/emoji/13.1.0/svg/25aa.svg"
-                  alt="▪"
-                />
+                
                 &nbsp;cumprir qualquer legisla&ccedil;&atilde;o,
                 regula&ccedil;&atilde;o, processo formal ou
                 solicita&ccedil;&atilde;o governamental aplic&aacute;vel;
                 <br />
-                <img
-                  class="emoji"
-                  role="img"
-                  draggable="false"
-                  src="https://s.w.org/images/core/emoji/13.1.0/svg/25aa.svg"
-                  alt="▪"
-                />
+                
                 &nbsp;detectar, impedir ou abordar de alguma outra forma fraude,
                 disputas, quest&otilde;es t&eacute;cnicas ou de
                 seguran&ccedil;a;
                 <br />
-                <img
-                  class="emoji"
-                  role="img"
-                  draggable="false"
-                  src="https://s.w.org/images/core/emoji/13.1.0/svg/25aa.svg"
-                  alt="▪"
-                />
+               
                 &nbsp;proteger contra dano aos direitos, a propriedade ou a
                 seguran&ccedil;a da
                 <br />
