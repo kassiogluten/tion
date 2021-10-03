@@ -25,6 +25,22 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <div
+        style={{
+          color: "white",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "100%",
+          display: 'flex',
+          flexDirection:'column',
+          padding:'1rem'
+        }}
+      >
+        <p>JP Consultoria LTDA</p>
+       <p> 041.466.581/0001-39</p>
+        <p>(33) 99865-0761</p>
+       <p> contato@tionapp.com.br</p>
+      </div>
     </Router>
   );
 }
